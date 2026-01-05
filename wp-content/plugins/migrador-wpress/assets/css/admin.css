@@ -1,0 +1,32 @@
+.migrador-wpress__contenedor {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 24px;
+}
+
+.migrador-wpress__bloque {
+	background: #fff;
+	padding: 16px;
+	border: 1px solid #ccd0d4;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.migrador-wpress__salida {
+	margin-top: 12px;
+	padding: 10px;
+	min-height: 24px;
+	border-radius: 4px;
+}
+
+.migrador-wpress__ok {
+	background: #f3faf5;
+	border: 1px solid #b7e1c4;
+	color: #0a6c3e;
+}
+
+.migrador-wpress__error {
+	background: #fff5f5;
+	border: 1px solid #f5c6cb;
+	color: #842029;
+}
